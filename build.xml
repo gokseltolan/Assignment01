@@ -188,7 +188,7 @@
 
 	<target name="execute.HealthProfileJson">
 		<echo message="Executing Person for Json" />
-		<java classname="HealthProfileJson" classpath="${build.dir}">
+		<java classname="pojos.HealthProfileJson" classpath="${build.dir}">
 			<classpath>
 				<fileset dir="${lib.dir}">
 					<include name="**/*.jar" />
